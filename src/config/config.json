@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "root",
+    "password": "qVJpoyBmodyNnYpoXPKBBcRFOlGeUpia",
+    "database": "railway",
+    "host": "tramway.proxy.rlwy.net",
+    "port": 36015,
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "qVJpoyBmodyNnYpoXPKBBcRFOlGeUpia",
+    "database": "railway_test",
+    "host": "tramway.proxy.rlwy.net",
+    "port": 36015,
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "qVJpoyBmodyNnYpoXPKBBcRFOlGeUpia",
+    "database": "railway_prod",
+    "host": "tramway.proxy.rlwy.net",
+    "port": 36015,
+    "dialect": "mysql"
+  }
+}
