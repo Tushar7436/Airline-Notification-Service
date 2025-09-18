@@ -4,7 +4,7 @@ const { EmailService } = require('./services');
 
 async function connectQueue() {
     try {
-        const connection = await amqplib.connect("amqp://localhost");
+        const connection = await amqplib.connect("amqps://xmylqijo:cBNQINxXmEmtDljehz6j0UiKhan3RW9j@rabbit.lmq.cloudamqp.com/xmylqijo");
         const channel = await connection.createChannel();
         await channel.assertQueue("noti-queue");
         channel.consume("noti-queue",  async (data) => {
